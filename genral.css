@@ -1,0 +1,51 @@
+/*h1{
+    color:brown;
+    }
+h2{
+    color: aquamarine;
+    }
+p{
+    color: chocolate;
+    }*/
+
+.a{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+    color: red;
+}
+
+#p2{
+    color: blueviolet;
+}
+
+#b1{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+div p{
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+ol>li{
+    color: grey;
+
+}
+
+h1+p{
+    color: blanchedalmond;
+}
+
+.e{
+    color: red;
+
+}
+.e:hover{
+    color: blue;
+    cursor: pointer;
+}
+
