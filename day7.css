@@ -1,0 +1,31 @@
+
+.a{
+    color: white;
+}
+.b{
+    color:brown;
+}
+.b:hover{
+    cursor: pointer;
+    color:red;
+    transition: 0.3s
+}
+#a4{
+    text-align: right;
+}
+#a3{
+    font-style: italic;
+}
+#boo{
+    font-size: 1rem;
+}
+#a2{
+    margin-top: 100px;
+    font-style: oblique;
+    border: 1px;
+    border-width:2px;
+    border-style:solid;
+    border-color: black;
+    
+    padding-left: 20px;
+}
