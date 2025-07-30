@@ -1,0 +1,52 @@
+<!--Gride-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #out{
+            padding: 5px;
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            row-gap: 2px;
+            column-gap: 2px;
+            justify-content: start;
+        }
+        #out>div{
+            border: 2px solid black;
+        }
+        #in2{
+            grid-row-start:1;
+            grid-row-end: 3;
+        }
+        #in5{
+            grid-column-start:1;
+            grid-row-end: 3;
+        }
+        #in8{
+            grid-row-start:3 ;
+            grid-column-end: 2;
+        }
+        #in9{
+            display: inline-flex;
+        }
+    </style>
+</head>
+<body>
+    <div id="out">
+        <div id="in1">1</div>
+        <div class="a" id="in2">2</div>
+        <div id="in3">3</div>
+        <div id="in4">4</div>
+        <div class="a" id="in5">5</div>
+        <div id="in6">6</div>
+        <div id="in7">7</div>
+        <div class="a" id="in8">8</div>
+        <div id="in9">9</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.h1{
+    display: block;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 2px;
+    margin-block-start: 0.60em;
+    margin-block-end: 0.60em;
+}
+#out{
+    border: 2px solid white ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto 400px minmax( 200px 500px);
+    gap: 1px;
+    justify-content: center;
+    background-color:#ddd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right:20px ;
+    }
+#out>div{
+    background-color: seagreen;
+    border: 1px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right:20px ;
+        }
+#a12{
+    grid-row: 1/2;
+    grid-column:1/2;
+}
+#a12{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 200px;
+}
+#a102{
+    height: 50px;
+}
+#out1{
+    border: 2px solid white ;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto 400px minmax( 200px 500px);*/
+    gap: 1px;
+    justify-content: center;
+    background-color:#ddd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right:20px ;
+}
+#out1>div{
+    background-color: darkviolet;
+    border: 2px solid goldenrod;
+    color: white;
+    padding-top:20px ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 55rem;
+}
